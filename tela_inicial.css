@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.left-images {
+    display: flex;
+}
+
+.left-images img {
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+    height: 30px;
+    margin: 0 5px;
+}
+
+.right-logo img {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: 50px;
+    margin: 0 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.image-wrapper {
+    padding: 80px;
+    border: 1px solid #ccc; /* Borda para dar a sensação de um campo de login */
+    margin: 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para efeito visual */
+    border-radius: 15px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.image-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.image-wrapper h1, .image-wrapper h3 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px; /* Adiciona margem superior para empurrar o texto para baixo */
+}
+
+.time {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
